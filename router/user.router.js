@@ -53,8 +53,6 @@ app.post("/signin", async (req, res) => {
   }
 });
 
-app.post("getProfile", async(req,res) => {
-    
-})
+app.get("getProfile", (req, res) => {});
 
 module.exports = app;
